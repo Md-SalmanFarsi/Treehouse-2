@@ -1,0 +1,118 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/tree\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backdrop-filter: blur(10px);
+}
+header{
+    background-color: #343A40;
+    padding: 30px 0;
+    border: 2px shadow #5CBAFF;
+}
+header nav{
+
+width: 40%;
+
+margin: auto;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+header nav ul li{
+
+}
+header nav ul li a{
+
+text-decoration: none;
+
+color: #fff;
+
+font-size: 15px;
+
+text-transform: uppercase;
+}
+header nav ul li a img{
+    
+}
+
+
+.content{
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.blog{
+    width: 50%;
+    margin-top: 250px;
+}
+.blog h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+.blog p{
+
+}
+.blog ul{
+
+}
+.blog ul li{
+    list-style: none;
+    font-size: 15px;
+    text-transform: capitalize;
+
+}
+button{
+    margin-top: 20px;
+    padding: 8px 22px;
+    background-color: #6DBD6D;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+}
+.contact{
+    width: 30%;
+  
+    background-color: #6DBD6D;
+
+    margin-top: 245px;
+    border-radius: 5px;
+}
+.contact h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contact p{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.contact input {
+    width: 80%;
+    padding: 6px;
+    border: none;
+    margin: 4px 0px 8px 27px;
+    border-radius: 15px;
+}
+.contact input[type="submit"]{
+    background-color: #529252;
+    margin: 4px 33px;
+    margin-bottom: 49px;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
